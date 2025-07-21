@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    Logging (ghi log) là quá trình ghi lại các thông tin quan trọng trong quá trình chạy của một ứng dụng vào các tệp tin hoặc hệ thống giám sát (console, file, database, log server...). Các thông tin này có thể bao gồm lỗi, cảnh báo, thông báo hệ thống, truy vết hoạt động của người dùng, hoặc thông tin phục vụ phân tích hiệu năng.
+
+    Logging thường được sử dụng thông qua các thư viện hoặc framework như:
+
+    Java: SLF4J, Logback, Log4j
+
+    JavaScript: Winston, Bunyan
+
+    Python: logging module
+</p>
+
+<p>
+    Việc ghi log là vô cùng quan trọng trong phát triển và vận hành phần mềm. Dưới đây là 3 lý do then chốt:
+
+    1. Giúp debug và khắc phục sự cố
+    Khi ứng dụng gặp lỗi (exception, crash...), log sẽ là "manh mối" giúp dev tìm ra nguyên nhân gây lỗi mà không cần phải tái hiện lại toàn bộ quá trình. Nhờ đó, việc sửa lỗi sẽ nhanh hơn, chính xác hơn.
+
+    Ví dụ: Log ghi lại NullPointerException tại dòng 45 trong class UserService, giúp bạn biết rõ lỗi xảy ra ở đâu.
+
+    2. Theo dõi hành vi và hoạt động của hệ thống
+    Logging giúp bạn nắm được các hoạt động đang diễn ra trong hệ thống theo thời gian thực hoặc lịch sử. Ví dụ:
+
+    Ai đăng nhập lúc nào?
+
+    Người dùng đã thực hiện hành động gì?
+
+    Dịch vụ nào đang gọi API nào?
+
+    Điều này đặc biệt quan trọng với các hệ thống nhiều người dùng và cần audit.
+
+    3. Giám sát hiệu năng và bảo mật
+    Log có thể cung cấp thông tin về thời gian xử lý, tần suất truy cập, các hành vi bất thường... Từ đó, bạn có thể:
+
+    Tối ưu hiệu năng hệ thống
+
+    Phát hiện và cảnh báo sớm các cuộc tấn công (brute-force, truy cập trái phép...)
+
+</p>
+</body>
+</html>
